@@ -7,7 +7,7 @@ namespace cardtypes
 {
 enum Rank
 {
-    A,
+    A = 1,
     TWO,
     THREE,
     FOUR,

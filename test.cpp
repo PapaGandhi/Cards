@@ -10,6 +10,11 @@ using namespace cardtypes;
 
 int main()
 {
+    Card h;
+    
     Deck blah;
+    blah.Shuffle();
+    h = blah.DealNextCard();
+    h.PrintCard();
 }
 

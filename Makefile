@@ -5,7 +5,7 @@ CXX = g++
 poker: deck.o card.o hand.o table.o test.o
 	$(CXX) -o poker deck.o card.o hand.o table.o test.o
 
-deck.o: deck.cpp deck.hpp
+deck.o: deck.cpp deck.h
 	$(CXX) -c deck.cpp
 
 card.o: card.cpp card.h 
